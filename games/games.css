@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(37, 32, 36);
+    color: rgb(207, 199, 200);
+}
+
+a {
+    cursor: url("../assets/cursors/fuckyou.png"), auto;
+}
+
+html{
+    cursor: url('../assets/cursors/cursor1.png'), auto;
+}
+
+li{
+    display: flex;
+    margin: 5px;
+}
+p{
+    margin-right: 30px;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}

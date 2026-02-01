@@ -12,17 +12,17 @@ a {
 html {
     
     background: linear-gradient(
-        rgba(107, 107, 107, 0.582), 
-        rgba(0, 0, 0, 0.308)
+        rgba(255, 255, 255, 0.164), 
+        rgba(107, 107, 107, 0.274)
       ), 
-      url('assets/tiles/tile3.png');;
+      url('assets/bg.png');;
     /*
     background: linear-gradient(rgba(0, 0, 0, 0.651),
             rgba(0, 0, 0, 0.521)),
         url('assets/tiles/tile3.png');
     ;
     */
-    background-size: 10%;
+    background-size: 100%;
     background-repeat: repeat;
     image-rendering: crisp-edges;
 
@@ -47,8 +47,9 @@ html {
     place-items: center;
 }
 
-#henioA {
-    scale: 2.5;
+#tuffA {
+    position: absolute;
+    scale: 0.5;
     image-rendering: crisp-edges;
     filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.37));
 }
@@ -72,12 +73,14 @@ html {
     transform: translateX(40vw) translateY(-1vw) scale(0.7);
 }
 
-#aquariumA{
+
+#gamesA{
     position: fixed;
-    bottom: 4vh;
-    right: 3vw;
-    transition: transform 0.5s;
-    z-index: 999;
-    image-rendering: auto;
-    filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.61));
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.move-in-games {
+    transform: translateY(10vh);
 }
