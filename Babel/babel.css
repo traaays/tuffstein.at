@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    cursor: url('../assets/cursors/cursor_select.png'), auto;
+}
+
+html {
+    
+    background: linear-gradient(
+        rgba(107, 107, 107, 0.582), 
+        rgba(0, 0, 0, 0.308)
+      ), 
+      url('assets/tile.png');;
+    /*
+    background: linear-gradient(rgba(0, 0, 0, 0.651),
+            rgba(0, 0, 0, 0.521)),
+        url('assets/tiles/tile3.png');
+    ;
+    */
+    background-size: 10%;
+    background-repeat: repeat;
+    image-rendering: crisp-edges;
+
+    cursor: url('../assets/cursors/cursor.png'), auto;
+
+    animation: pan 40s linear infinite;
+}
+
+@keyframes pan {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+.center {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#henioA {
+    scale: 2.5;
+    image-rendering: crisp-edges;
+    filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.37));
+}
+
+#nektarynkaA {
+    scale: 0.8;
+    position: fixed;
+    bottom: 4vh;
+    left: -29vw;
+    transition: transform 0.5s;
+    z-index: 999;
+    image-rendering: auto;
+    filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.61));
+}
+
+.move-in {
+    transform: translateX(40vw);
+}
+
+.click {
+    transform: translateX(40vw) translateY(-1vw) scale(0.7);
+}
