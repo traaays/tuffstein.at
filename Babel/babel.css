@@ -6,7 +6,7 @@
 }
 
 a {
-    cursor: url('../assets/cursors/cursor_select.png'), auto;
+    cursor: url('../assets/cursors/fuckyou.png'), auto;
 }
 
 html {
@@ -26,7 +26,7 @@ html {
     background-repeat: repeat;
     image-rendering: crisp-edges;
 
-    cursor: url('../assets/cursors/cursor.png'), auto;
+    cursor: url('../assets/cursors/cursor1.png'), auto;
 
     animation: pan 40s linear infinite;
 }

@@ -3,12 +3,20 @@
     padding: 0px;
     max-width: 100%;
     overflow-x: hidden;
+    color: rgb(234, 226, 235);
+    text-shadow: 2px 2px #ffffff1a;
+}
+
+body{
     background-color: rgb(37, 32, 36);
-    color: rgb(207, 199, 200);
 }
 
 a {
     cursor: url("../assets/cursors/fuckyou.png"), auto;
+}
+
+a:hover{
+    text-shadow: 2px 2px #e6cfe786;
 }
 
 html{

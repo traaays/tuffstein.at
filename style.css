@@ -57,12 +57,12 @@ html {
     left: -9.5%;
 }
 
-#frogA {
-    scale: 0.9;
-    filter: drop-shadow(0 0 0.4rem rgba(14, 36, 17, 0.7));
+#centerA {
+    scale: 1;
+    filter: drop-shadow(0 0 0.3rem rgba(14, 36, 17, 0.8));
 }
 
-#frogA :hover{
+#centerA :hover{
     filter: drop-shadow(0 0 0.4rem rgb(50, 156, 64,2));
     filter: saturate(0.5);
 }
