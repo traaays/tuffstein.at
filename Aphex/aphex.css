@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    color: #231f20;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #bfd630;
+    image-rendering: crisp-edges;
+}
+
+a {
+    cursor: url("../assets/cursors/fuckyou.png"), auto;
+}
+
+a:hover{
+    text-shadow: 2px 2px #e6cfe786;
+}
+
+html{
+    cursor: url('../assets/cursors/cursor1.png'), auto;
+}
+
+li{
+    display: flex;
+    margin: 5px;
+}
+p{
+    margin-right: 30px;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}

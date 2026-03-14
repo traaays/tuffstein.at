@@ -1,0 +1,6 @@
+{
+    "id" : [0,1],
+    "songTitle": "Xtal",
+    "instrumentCount": 4,
+    "instrumentNames": ["Bass", "Vocals", "Drums", "Chords"]
+}

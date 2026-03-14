@@ -1,0 +1,116 @@
+{
+  "albums": [
+    {
+        "id" : 0,
+        "title": "SAW 85-92",
+        "songs": [
+            {
+            "id": 1,
+            "title": "Xtal"
+            },
+            {
+            "id": 2,
+            "title": "Tha"
+            },
+            {
+            "id": 3,
+            "title": "Pulsewidth"
+            },
+            {
+            "id": 4,
+            "title": "Ageispolis"
+            },
+            {
+            "id": 5,
+            "title": "I"
+            },
+            {
+            "id": 6,
+            "title": "Green Calx"
+            },
+            {
+            "id": 7,
+            "title": "Heliosphan"
+            },
+            {
+            "id": 8,
+            "title": "We Are the Music Makers"
+            },
+            {
+            "id": 9,
+            "title": "Schottkey 7th Path"
+            },
+            {
+            "id": 10,
+            "title": "Ptolemy"
+            },
+            {
+            "id": 11,
+            "title": "Hedphelym"
+            },
+            {
+            "id": 12,
+            "title": "Delphium"
+            },
+            {
+            "id": 13,
+            "title": "Actium"
+            }
+        ]
+    },
+    {
+        "id" : 1,
+        "title": "Syro",
+        "songs": [
+            {
+            "id": 1,
+            "title": "minipops 67"
+            },
+            {
+            "id": 2,
+            "title": "XMAS_EVET10"
+            },
+            {
+            "id": 3,
+            "title": "produk 29"
+            },
+            {
+            "id": 4,
+            "title": "4 bit 9d api+e+6"
+            },
+            {
+            "id": 5,
+            "title": "180db_"
+            },
+            {
+            "id": 6,
+            "title": "CIRCLONT6A"
+            },
+            {
+            "id": 7,
+            "title": "fz pseudotimestretch+e+3"
+            },
+            {
+            "id": 8,
+            "title": "CIRCLONT14"
+            },
+            {
+            "id": 9,
+            "title": "syro u473t8+e"
+            },
+            {
+            "id": 10,
+            "title": "PAPAT4"
+            },
+            {
+            "id": 11,
+            "title": "s950tx16wasr10"
+            },
+            {
+            "id": 12,
+            "title": "aisatsana"
+            }
+        ]
+    }
+  ]
+}
